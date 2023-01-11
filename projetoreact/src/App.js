@@ -1,11 +1,12 @@
 import Form from "./components/Form/form";
+import TodoList from "./components/TodoList/TodoList";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Form />
-        <h1> Colé </h1>
+        <TodoList />
       </header>
     </div>
   );

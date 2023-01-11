@@ -1,13 +1,11 @@
 import "./form.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import TodoList from "../TodoList/TodoList";
 
 function Form() {
   const API = "http://localhost:5000";
-
   const [title, setTitle] = useState("");
   const [time, setTime] = useState("");
-  const [todos, setTodos] = useState([]);
-  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,7 +17,7 @@ function Form() {
       done: false,
     };
 
-    await fetch(API + "/todo", {
+    await fetch(API + "/todos", {
       method: "POST",
       body: JSON.stringify(todo),
       headers: {
@@ -57,6 +55,7 @@ function Form() {
         />
         <input className="btn-form" type="submit" value="enviar" />
       </form>
+      <TodoList />
     </div>
   );
 }
