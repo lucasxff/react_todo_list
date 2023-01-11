@@ -1,4 +1,8 @@
 import { useState, useEffect } from "react";
+import { BsBookmarkCheck } from "react-icons/bs"
+import { BsBookmarkCheckFill } from "react-icons/bs";
+import { BsTrash } from "react-icons/bs";
+
 
 const API = "http://localhost:5000";
 
@@ -24,8 +28,10 @@ function TodoList() {
       {console.log(todos.map((n) => n))}
       {todos.map((n) => (
         <div className="todo" key={n.id}>
-          <span> {n.title}</span>
-          <span> - {n.time}</span>
+          <h3> {n.title}</h3>
+          <p> Duração:  {n.time}</p>
+          <span> { !n.done ? <BsBookmarkCheck /> : <BsBookmarkCheckFill /> } </span>
+          <BsTrash />
         </div>
       ))}
     </div>

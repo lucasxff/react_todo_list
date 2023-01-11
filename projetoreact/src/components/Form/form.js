@@ -53,7 +53,7 @@ function Form() {
           onChange={(e) => setTime(e.target.value)}
           value={time}
         />
-        <input className="btn-form" type="submit" value="enviar" />
+        <input className="btn-form" type="submit" value="Enviar" />
       </form>
       <TodoList />
     </div>
