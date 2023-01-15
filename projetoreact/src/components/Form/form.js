@@ -1,15 +1,15 @@
-import "./form.css";
-import { useState } from "react";
-import TodoList from "../TodoList/TodoList";
+import './form.css';
+import { useState } from 'react';
+import TodoList from '../TodoList/TodoList';
 
 function Form() {
-  const API = "http://localhost:5000";
-  const [title, setTitle] = useState("");
-  const [time, setTime] = useState("");
+  const API = 'http://localhost:5000';
+  const [title, setTitle] = useState('');
+  const [time, setTime] = useState('');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async e => {
     e.preventDefault();
-    console.log("ta ai corno?");
+    console.log('ta ai corno?');
     const todo = {
       id: Math.random(),
       title,
@@ -17,16 +17,16 @@ function Form() {
       done: false,
     };
 
-    await fetch(API + "/todos", {
-      method: "POST",
+    await fetch(API + '/todos', {
+      method: 'POST',
       body: JSON.stringify(todo),
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
     });
 
-    setTime("");
-    setTitle("");
+    setTime('');
+    setTitle('');
     this.TodoList(todo);
   };
 
@@ -42,8 +42,8 @@ function Form() {
           type="text"
           name="title"
           placeholder="Nome da Tarefa"
-          onChange={(e) => setTitle(e.target.value)}
-          value={title || ""}
+          onChange={e => setTitle(e.target.value)}
+          value={title || ''}
           required
         />
         <label htmlFor="duracao">Duração:</label>
@@ -52,7 +52,7 @@ function Form() {
           type="text"
           name="time"
           placeholder="Duração"
-          onChange={(e) => setTime(e.target.value)}
+          onChange={e => setTime(e.target.value)}
           value={time}
         />
         <input className="btn-form" type="submit" value="Enviar" />
