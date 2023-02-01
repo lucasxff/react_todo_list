@@ -45,7 +45,9 @@ function Form() {
           value={title || ''}
           required
         />
-        <label htmlFor="duracao">Duração:</label>
+        <label htmlFor="duracao">
+          Duração: <small>(Em horas)</small>
+        </label>
         <input
           className="inputForm"
           type="text"

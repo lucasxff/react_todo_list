@@ -10,15 +10,22 @@
 }
 
 .todo {
-  background: rgb(25, 11, 77);
-  color: white;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(214, 214, 214, 1) 100%
+  );
+  color: #010114;
   margin: 0 2rem 2rem 0;
   padding: 10px 30px;
   border-radius: 1rem;
   width: 10rem;
+  border: 1px solid #010114;
 }
 
 .todo hr {
-  border-size: 1px;
-  width: calc(100% + 50px) !important;
+  border: 0.1rem solid #010114;
+  margin: -5px -30px;
 }

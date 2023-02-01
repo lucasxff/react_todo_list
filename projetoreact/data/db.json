@@ -1,153 +1,15 @@
 {
   "todos": [
     {
-      "id": 0.833879165626366,
-      "title": "corno",
-      "time": "6",
+      "id": 0.6861196807241499,
+      "title": "Study",
+      "time": "2",
       "done": false
     },
     {
       "id": 0.6861196807241499,
-      "title": "alexandre",
-      "time": "2",
-      "done": false
-    },
-    {
-      "id": 0.09780244053249887,
-      "title": "lucas",
-      "time": "2",
-      "done": false
-    },
-    {
-      "id": 0.18687378154636258,
-      "title": "lucas2",
+      "title": "Learn Guitar",
       "time": "5",
-      "done": false
-    },
-    {
-      "id": 0.1301584353448828,
-      "title": "lucas4",
-      "time": "6",
-      "done": false
-    },
-    {
-      "id": 0.4385885072693294,
-      "title": "lucas24",
-      "time": "3",
-      "done": false
-    },
-    {
-      "id": 0.5206434079015367,
-      "title": "lucas",
-      "time": "f34",
-      "done": false
-    },
-    {
-      "id": 0.5277450173547014,
-      "title": "ll",
-      "time": "22",
-      "done": false
-    },
-    {
-      "id": 0.4482904004717563,
-      "title": "22",
-      "time": "34",
-      "done": false
-    },
-    {
-      "id": 0.7544609554993567,
-      "title": "2",
-      "time": "4",
-      "done": false
-    },
-    {
-      "id": 0.27736059193533635,
-      "title": "2",
-      "time": "5",
-      "done": false
-    },
-    {
-      "id": 0.976066602388042,
-      "title": "lucas",
-      "time": "2",
-      "done": false
-    },
-    {
-      "id": 0.7276513646534208,
-      "title": "lucas",
-      "time": "2",
-      "done": false
-    },
-    {
-      "id": 0.91051943928475,
-      "title": "333",
-      "time": "2222",
-      "done": false
-    },
-    {
-      "id": 0.3865991689312134,
-      "title": "eee",
-      "time": "2",
-      "done": false
-    },
-    {
-      "id": 0.3498781707571421,
-      "title": "23",
-      "time": "ee",
-      "done": false
-    },
-    {
-      "id": 0.8627226239528485,
-      "title": "44",
-      "time": "e",
-      "done": false
-    },
-    {
-      "id": 0.6142020339446275,
-      "title": "lucas30202'",
-      "time": "444",
-      "done": false
-    },
-    {
-      "id": 0.733103040257298,
-      "title": "col",
-      "time": "dd",
-      "done": false
-    },
-    {
-      "id": 0.200131313236533,
-      "title": "ss",
-      "time": "22",
-      "done": false
-    },
-    {
-      "id": 0.9654949306232292,
-      "title": "wewe",
-      "time": "ccc",
-      "done": false
-    },
-    {
-      "id": 0.1530928096280446,
-      "title": "kk",
-      "time": "",
-      "done": false
-    },
-    {
-      "id": 0.303325147814002,
-      "title": "we",
-      "time": "e4",
-      "done": false
-    },
-    {
-      "id": 0.022684387559260166,
-      "title": "sdsd",
-      "time": "",
-      "done": false
-    },
-    {
-      "id": 0.6415651720290672,
-      "title": "Vane",
-      "time": "Barril",
       "done": false
     }
   ]
