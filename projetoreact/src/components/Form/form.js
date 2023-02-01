@@ -27,7 +27,6 @@ function Form() {
 
     setTime('');
     setTitle('');
-    this.TodoList(todo);
   };
 
   return (
@@ -58,7 +57,7 @@ function Form() {
         <input className="btn-form" type="submit" value="Enviar" />
       </form>
       <hr />
-      <TodoList />
+      <TodoList>{handleSubmit}</TodoList>
     </div>
   );
 }

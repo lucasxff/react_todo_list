@@ -5,22 +5,22 @@ import { BsTrash } from 'react-icons/bs';
 
 const API = 'http://localhost:5000';
 
-function TodoList() {
+function TodoList(result) {
   const [todos, setTodos] = useState([]);
-  const [loading, setLoading] = useState(false);
+  //const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setLoading(true);
+    //setLoading(true);
     const loadData = async () => {
       const res = await fetch(API + '/todos')
         .then(res => res.json())
         .then(data => data)
         .catch(err => console.log(err));
-      setLoading(false);
+      //setLoading(false);
       setTodos(res);
     };
     loadData();
-  }, []);
+  }, [result]);
 
   return (
     <div>
